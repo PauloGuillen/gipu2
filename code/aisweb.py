@@ -7,9 +7,14 @@ if len(sys.argv) < 2:
     print('É necessário fornece o código ICAO')
     exit()
 
+codigo_icao = sys.argv[1]
+if len(codigo_icao) < 4:
+    print('O código deve ter ao menos 4 caracteres')
+    exit()
+
 session = HTMLSession()
 url = 'https://aisweb.decea.mil.br/?i=aerodromos&codigo='
-codigo_icao = sys.argv[1]
+
 
 r = session.get(url+codigo_icao)
 
