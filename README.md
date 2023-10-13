@@ -1,7 +1,6 @@
 # aisweb
 
-Esta é uma aplicação que obtém informações do site https://aisweb.decea.mil.br/ sobre as condições meteorológicas dos aeródromos, horários de nascer e pôr do sol, assim como a existência de cartas disponíveis. É necessário o fornecimento do código ICAO do aeródomo.
-
+Esta é uma aplicação que obtém informações do site https://aisweb.decea.mil.br/ sobre as condições meteorológicas dos aeródromos, horários de nascer e pôr do sol, assim como as cartas disponíveis. É necessário o fornecimento do código ICAO do aeródomo.
 
 
 # Execução local
